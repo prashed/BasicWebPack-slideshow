@@ -9,7 +9,7 @@
   function initSlideShow(slideshow) {
     const slides = document.querySelectorAll('#'.concat(slideshow.id, ' [role="list"] .slide'));
     let index = 0;
-    const time = 5000;
+    const time = 3000;
     slides[index].classList.add('active');
     setInterval(() => {
       slides[index].classList.remove('active');
